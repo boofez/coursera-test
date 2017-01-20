@@ -13,13 +13,32 @@ p {
 	border: 1px solid black;
 }
 
+#container {
+	position: relative;
+}
+
+#chmen{
+	
+}
+
+/* #chicken {
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 250px;
+} */
+
  /* #chicken {
 	position: relative;
 	width: 25%;
 } */
 
 #chicken {
+	position: absolute;
 	font-size: 1.25em;
+	width: 80px;
+	text-align: center;
+	margin: 0px 0px 0px 325px;
+	background-color: #27AE60;
 }
 
 /* Responsive Framework */
