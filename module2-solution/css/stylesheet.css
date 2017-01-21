@@ -1,44 +1,55 @@
 * {
 	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica;
 }
 
 h1 {
 	font-size: 3.5em;
 	text-align: center;
+	margin: 50px 0px 75px 0px;
+}
+
+h2 {
+	border: 1px solid black;
 }
 p {
 	background-color: #AED6F1;
-	font-family: Helvetica;
-	width: 90%;
 	border: 1px solid black;
+	padding: 40px 20px 20px 20px;
 }
 
-#container {
+section div {
+	margin: 0px 10px 20px 10px;
 	position: relative;
 }
-
-#chmen{
-	
-}
-
-/* #chicken {
-	position: absolute;
-	margin-top: -20px;
-	margin-left: 250px;
-} */
-
- /* #chicken {
-	position: relative;
-	width: 25%;
-} */
 
 #chicken {
 	position: absolute;
+	right: 0%;
 	font-size: 1.25em;
-	width: 80px;
+	width: 120px;
 	text-align: center;
-	margin: 0px 0px 0px 325px;
 	background-color: #27AE60;
+}
+
+#beef {
+	position: absolute;
+	right: 0%;
+	font-size: 1.25em;
+	width: 120px;
+	text-align: center;
+	background-color: #DC7633;
+}
+
+#sushi {
+	position: absolute;
+	right: 0%;
+	font-size: 1.25em;
+	width: 120px;
+	text-align: center;
+	background-color: #C39BD3;
 }
 
 /* Responsive Framework */
@@ -173,9 +184,4 @@ p {
 	.col-sm-12 {
 		width: 100%;
 	}
-}
-
-h1 {
-	font-size: 3.5em;
-	text-align: center;
 }
